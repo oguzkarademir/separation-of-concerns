@@ -29,25 +29,25 @@
     const setSecretHandler = () => {
       debugger;
 
-      const inputEl = document.getElementById('_');
+      const inputEl = document.getElementById('user-input');
       const newSecret = inputEl.value;
 
-      const outputEl = document.getElementById('_');
-      outputEl._ = newSecret;
+      const outputEl = document.getElementById('output');
+      outputEl.innerHTML = newSecret;
     };
 
     const displaySecretHandler = () => {
       debugger;
 
-      const outputEl = document.getElementById('_');
-      outputEl._ = 'visible';
+      const outputEl = document.getElementById('output');
+      outputEl.className = 'visible';
     };
 
     const hideSecretHandler = () => {
       debugger;
 
-      const outputEl = document.getElementById('_');
-      outputEl.className = '_';
+      const outputEl = document.getElementById('output');
+      outputEl.className = 'hidden';
     };
   </script>
 </head>
