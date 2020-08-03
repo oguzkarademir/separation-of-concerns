@@ -20,7 +20,11 @@ console.log(divEl.nodeName, divEl.cloneNode(true));
 // --- write some code ---
 //  you will need to access and update each <td> element
 
-
+const nested = divEl.children[0].children[0];
+nested.children[0].children[0].innerHTML = 'a';
+nested.children[0].children[1].innerHTML = 'b';
+nested.children[1].children[0].innerHTML = 'c';
+nested.children[1].children[1].innerHTML = 'd';
 
 
 // --- --- --- --- --- ---

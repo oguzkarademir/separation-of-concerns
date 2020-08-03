@@ -65,6 +65,51 @@
           ]
         }
       ]
+    },
+    {
+      "path": "/03-event-delegation",
+      "dirs": [
+        {
+          "path": "/examples",
+          "files": [
+            {
+              "path": "/0-event-bubbling.html"
+            },
+            {
+              "path": "/0-event-target.html"
+            },
+            {
+              "path": "/1-change-text-loop.html"
+            },
+            {
+              "path": "/2-change-text-delegation.html"
+            },
+            {
+              "path": "/3-tic-tac-toe.html"
+            }
+          ],
+          "isExample": true
+        },
+        {
+          "path": "/exercises",
+          "files": [
+            {
+              "path": "/faq-demo.html",
+              "isExample": true
+            },
+            {
+              "path": "/faq.html"
+            },
+            {
+              "path": "/todo-demo.html",
+              "isExample": true
+            },
+            {
+              "path": "/todo.html"
+            }
+          ]
+        }
+      ]
     }
   ],
   "config": {

@@ -9,6 +9,12 @@ console.log('initial button:', buttonEl.cloneNode(true));
 const reverseInnerHTMLHandler = (event) => {
   // write code to reverse the target element's innerHTML
 
+if (buttonEl.innerHTML === '12345') {
+  buttonEl.innerHTML = '54321';
+} else if (buttonEl.innerHTML === '54321') {
+  buttonEl.innerHTML = '12345';
+}
+
 
 };
 

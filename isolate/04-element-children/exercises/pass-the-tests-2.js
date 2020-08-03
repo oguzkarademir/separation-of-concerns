@@ -10,7 +10,9 @@ console.log(divEl.nodeName, divEl.cloneNode(true));
 
 // --- write some code ---
 
-
+const top = divEl.children[0];
+top.setAttribute( 'href', '#top');
+top.children[0].innerHTML = 'to the top'
 
 
 // --- --- --- --- --- ---

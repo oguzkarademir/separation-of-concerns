@@ -10,7 +10,12 @@ console.log(ulEl.nodeName, ulEl.cloneNode(true));
 
 // --- write some code ---
 
-
+const firstLi = ulEl.children[0];
+firstLi.innerHTML = 'toad';
+const secondLi = ulEl.children[1];
+secondLi.innerHTML = 'frog';
+const thirdLi = ulEl.children[2];
+thirdLi.innerHTML = 'salamander';
 
 
 // --- --- --- --- --- ---
